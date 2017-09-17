@@ -31,7 +31,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 
 Copy and paste the output of pwd below.
 ----------
-
+/Users/sean/Desktop/Mtec1003
 
 
 ==========
@@ -42,7 +42,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals
 
 
 ==========
@@ -53,7 +53,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals	food
 
 
 ==========
@@ -64,7 +64,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals	foo	food
 
 
 ==========
@@ -75,7 +75,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/sean/Desktop/Mtec1003/foo/bar/baz/qux
 
 
 ==========
@@ -86,7 +86,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/sean/Desktop/Mtec1003/foo/bar
 
 
 ==========
@@ -98,7 +98,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/Users/sean/Desktop/Mtec1003/foo/bar/baz/qux
  
 ==========
 11. Type:
@@ -108,7 +108,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/sean/Desktop/Mtec1003
 
 
 ==========
@@ -120,7 +120,8 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
-
+total 0
+drwxr-xr-x  3 sean  staff  102 Sep 16 20:06 foo
 
 
 ==========
@@ -131,7 +132,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/sean
 
 
 ==========
@@ -142,7 +143,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Volumes
 
 
 ==========
@@ -153,7 +154,8 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+Seans-Mac:Volumes sean$ pwd
+/Volumes
 
 
 ==========
@@ -164,7 +166,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+-bash: cd: /Users/sean/mtec1003: No such file or directory
 
 
 ==========
@@ -174,13 +176,13 @@ $ hostname
 
 Copy and paste the output into the space below.
 ----------
-
+Seans-Mac.local
 
 
 ==========
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
-
+pwd
 
 
 ==========
@@ -203,7 +205,7 @@ lemon
 
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
-
+mkdir -p pineapple/orange/strawberry/lemon
 
 
 ==========
@@ -211,7 +213,7 @@ Use only one command to make all of these new directories.  Write what command y
 
 Write the command you used to create the directory below:
 ----------
-
+mkdir -p aardvark
 
 
 ==========
@@ -219,7 +221,7 @@ Write the command you used to create the directory below:
 
 What is the modified date of the aardvark directory?
 ----------
-
+drwxr-xr-x  2 sean  staff   68 Sep 16 20:20 aardvark
 
 
 ==========
@@ -231,7 +233,7 @@ What is the modified date of the aardvark directory?
 
 What command did you use?
 ----------
-
+mkdir -p foo/bar/baz
 
 
 ==========
@@ -239,7 +241,7 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd foo/bar/baz
 
 
 ==========
@@ -247,44 +249,45 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd ../..
 
 ==========
 24. What command is used to delete empty directories?
 ----------
-
+rmdir
 
 
 ==========
 25. What command is used to print out your current working directory?
 ----------
-
+ls
 
 
 ==========
 26. What flag do I pass to ls to print out all files?
 ----------
-
+ls ~
 
 
 ==========
 27. What's the shortcut for home directory?
 ----------
-
+cd ~
 
 
 ==========
 28. What's a pathname?
 ----------
-
+A statement of the location of a file
 
 
 ==========
 29. What's a directory?
 ----------
-
+A directory is a location for storing files on your computer
 
 
 ==========
 30. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+Users/sean/downloads
